@@ -3,15 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "setup:packages": "npm --prefix ../../packages/messlo-node-sdk install && npm --prefix ../../packages/messlo-node-sdk run build && npm --prefix ../../packages/messlo-whatsapp-login install && npm --prefix ../../packages/messlo-whatsapp-login run build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "messlo-node-sdk": "file:../../packages/messlo-node-sdk",
-    "messlo-whatsapp-login": "file:../../packages/messlo-whatsapp-login",
+    "@getmesslo/messlo-node-sdk": "^0.1.0",
+    "@getmesslo/messlo-whatsapp-login": "^0.1.0",
     "next": "^14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

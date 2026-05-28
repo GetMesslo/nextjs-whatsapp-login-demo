@@ -1,4 +1,4 @@
-import { nextAdapter } from "messlo-node-sdk";
+import { nextAdapter } from "@getmesslo/messlo-node-sdk";
 import { createMessloSdk } from "@/lib/messlo";
 
 export async function GET(

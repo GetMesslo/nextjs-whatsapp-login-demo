@@ -2,8 +2,8 @@
 
 Public demo app for:
 
-- `messlo-whatsapp-login` (frontend package)
-- `messlo-node-sdk` (secure backend package)
+- [`@getmesslo/messlo-whatsapp-login`](https://www.npmjs.com/package/@getmesslo/messlo-whatsapp-login) (frontend package)
+- [`@getmesslo/messlo-node-sdk`](https://www.npmjs.com/package/@getmesslo/messlo-node-sdk) (secure backend package)
 
 ## What this demo shows
 
@@ -62,7 +62,6 @@ NEXT_PUBLIC_MESSLO_HOSTED_WEBHOOK_URL=https://api.messlo.com/api/whatsapp-auth/w
 3. Install and run:
 
 ```bash
-npm run setup:packages
 npm install
 npm run dev
 ```

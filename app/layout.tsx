@@ -3,7 +3,7 @@ import "./styles.css";
 
 export const metadata: Metadata = {
   title: "Messlo WhatsApp Login Demo",
-  description: "Demo app for messlo-whatsapp-login + messlo-node-sdk"
+  description: "Demo app for @getmesslo/messlo-whatsapp-login + @getmesslo/messlo-node-sdk"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

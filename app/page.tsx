@@ -4,11 +4,11 @@ import { useState } from "react";
 import {
   getWhatsAppQrCodeUrl,
   type StartSessionResponse
-} from "messlo-whatsapp-login";
+} from "@getmesslo/messlo-whatsapp-login";
 import {
   MessloWhatsAppLoginButton,
   useMessloWhatsAppLogin
-} from "messlo-whatsapp-login/react";
+} from "@getmesslo/messlo-whatsapp-login/react";
 
 type Mode = "link" | "qr" | "both";
 
@@ -60,8 +60,8 @@ export default function DemoPage() {
           1) prebuilt component and 2) custom UI with hook.
         </p>
         <div className="row">
-          <span className="pill">Frontend: <code>messlo-whatsapp-login</code></span>
-          <span className="pill">Backend: <code>messlo-node-sdk</code></span>
+          <span className="pill">Frontend: <code>@getmesslo/messlo-whatsapp-login</code></span>
+          <span className="pill">Backend: <code>@getmesslo/messlo-node-sdk</code></span>
           <span className="pill">Base path: <code>/api/auth/whatsapp-login</code></span>
           <span className="pill">
             Webhook mode: <code>{webhookMode}</code>

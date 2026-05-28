@@ -1,4 +1,4 @@
-import { MessloNodeSdk } from "messlo-node-sdk";
+import { MessloNodeSdk } from "@getmesslo/messlo-node-sdk";
 
 export function createMessloSdk(): MessloNodeSdk {
   const apiKey = process.env.MESSLO_WA_LOGIN_API_KEY;

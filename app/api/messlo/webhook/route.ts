@@ -1,4 +1,4 @@
-import { verifyMessloWebhookSignature } from "messlo-node-sdk";
+import { verifyMessloWebhookSignature } from "@getmesslo/messlo-node-sdk";
 
 export async function POST(req: Request): Promise<Response> {
   const webhookMode = process.env.NEXT_PUBLIC_MESSLO_WEBHOOK_MODE || "self_hosted";
